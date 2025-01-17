@@ -6,7 +6,8 @@ import React, { useState } from 'react';
 const Calculator: React.FC = () => {
   const [input, setInput] = useState('');
   const [result, setResult] = useState<number | null>(null);
-
+  const [error, setError] = useState<string | null>(null);
+  
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInput(e.target.value);
   };
