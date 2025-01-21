@@ -6,14 +6,11 @@ import Image from 'next/image';
 const Home: React.FC = () => {
   return (
     <div>
+      <center>
       <h1>Simple Calculator</h1>
+      </center>
+
       <Calculator />
-      <Image
-        src="/images/nextjs.png"
-        alt="Next.js logo"
-        width={200}
-        height={200}
-      />
     </div>
   );
 };
