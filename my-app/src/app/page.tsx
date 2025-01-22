@@ -1,18 +1,17 @@
-// filepath: /c:/Users/Ganotice/OneDrive/Desktop/OWN WEBSITE/Portfolio/personalPortfolio2025/PersonalPortfolio-1/my-app/src/app/page.tsx
-import React from 'react';
-import Calculator from './components/Calculator';
-import Image from 'next/image';
+import React from "react";
+import HelloWorld from "./components/HelloWorld";
+import title from "./components/HelloWorld";
+import Calculator from "./components/Calculator";
 
-const Home: React.FC = () => {
+const App: React.FC = () => {
   return (
     <div>
-      <center>
-      <h1>Simple Calculator</h1>
-      </center>
-
+      <HelloWorld />
       <Calculator />
+      <title />
     </div>
   );
 };
 
-export default Home;
+
+export default App;
