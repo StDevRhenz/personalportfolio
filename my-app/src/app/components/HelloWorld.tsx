@@ -4,19 +4,14 @@ const HelloWorld: React.FC = () => {
     return (
         <div>
         <h1>Hello, World</h1>
+        <p>
+            <button className="order" type="button">Order Now</button>
+        </p>
         </div>
     );
 };
 
 
-const title: React.FC = () => {
-    return (
-        <div>
-            <button>Order now</button>
-        </div>
-    );
-};
+
 
 export default HelloWorld;
-
-export {title};
