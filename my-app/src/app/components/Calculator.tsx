@@ -20,6 +20,7 @@ const Calculator: React.FC = () => {
     } catch (error) {
       setResult(null);
       alert('Invalid expression');
+      
     }
   };
 
