@@ -7,16 +7,16 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1 class="name">
-      <span>R</span>
-      <span>H</span>
-      <span>E</span>
-      <span>N</span>
-      <span>Z</span>
-    </h1>
-  </div>
+  <h1>hello <span id="demos"></span></h1>
 
-  <script src="script.js"></script>
+  <script>
+    const hello = () => {
+      return "world";
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("demos").innerHTML = hello();
+    });
+  </script>
 </body>
 </html>
