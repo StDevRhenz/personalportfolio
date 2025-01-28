@@ -7,15 +7,27 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Rhenz <span id="demos"></span></h1>
 
+  <h1>Regular function</h1>
+
+  <p>The <strong>this</strong> keyword represents different objects depending on how 
+  the function was called</p>
+
+  <button class="" id="btn" > Love mo ko diba </button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  
+
+  <p id="demo" ></p>
+
+  <p>See the difference before and after the button is cliked</p>
+  
   <script>
-    const hello = () => {
-      return "Ganotice";
+    hello = () => {
+      return "oh diba";
     }
 
-    document.addEventListener("DOMContentLoaded", function() {
-      document.getElementById("demos").innerHTML = hello();
+    document.getElementById("btn").addEventListener("click", function() {
+      document.getElementById("demo").innerHTML = hello();
     });
   </script>
 </body>
