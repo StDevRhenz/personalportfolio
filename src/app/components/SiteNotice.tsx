@@ -7,7 +7,7 @@ export default function DevelopmentMode() {
       <motion.div
         initial={{ y: 30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
+        transition={{ duration: 0.90, ease: "easeOut" }}
         className="text-gray-800 text-lg font-semibold "
       >
         SALAMAT SA IYONG PAGBISITA NGUNIT HINDI PA ITO TAPOS!
