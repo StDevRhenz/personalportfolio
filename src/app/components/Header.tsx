@@ -68,7 +68,7 @@ export default function Header() {
       {/* Hero Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-          Hi, I'm <span className="text-blue-600 dark:text-blue-400">Rhenz</span>
+          Hi, I&apos;m <span className="text-blue-600 dark:text-blue-400">Rhenz</span>
         </h1>
         <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
           Accepting Software Application Development and Web Development Commissions.

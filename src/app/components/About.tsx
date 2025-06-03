@@ -1,12 +1,12 @@
 export default function About() {
-  const skills = [
-    { name: 'React', level: 'Advanced' },
-    { name: 'TypeScript', level: 'Advanced' },
-    { name: 'Next.js', level: 'Advanced' },
-    { name: 'Node.js', level: 'Intermediate' },
-    { name: 'Tailwind CSS', level: 'Advanced' },
-    { name: 'Git', level: 'Intermediate' },
-  ];
+  // const skills = [
+  //   { name: 'React', level: 'Advanced' },
+  //   { name: 'TypeScript', level: 'Advanced' },
+  //   { name: 'Next.js', level: 'Advanced' },
+  //   { name: 'Node.js', level: 'Intermediate' },
+  //   { name: 'Tailwind CSS', level: 'Advanced' },
+  //   { name: 'Git', level: 'Intermediate' },
+  // ];
 
   return (
     <section id="about" className="py-16 flex items-center justify-center min-h-[60vh]">
@@ -16,12 +16,12 @@ export default function About() {
         <div className="space-y-12">
           <div className="max-w-xl mx-auto">
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-              Hi! I'm a student developer who loves building applications.
+              Hi! I&apos;m a student developer who loves building applications.
               I enjoy using modern tools to make things work smoothly and look great.
-              Let's create something awesome together!
-            </p>  
+              Let&apos;s create something awesome together!
+            </p> 
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I'm always excited to learn new things and keep up with the latest in web development so I can get better every day.
+              I&apos;m always excited to learn new things and keep up with the latest in web development so I can get better every day.
             </p>
           </div>
 

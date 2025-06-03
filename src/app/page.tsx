@@ -3,7 +3,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import SiteNotice from "./components/SiteNotice";
+//import SiteNotice from "./components/SiteNotice";
 
 export default function Home() {
   return (

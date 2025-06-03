@@ -1,22 +1,22 @@
 export default function Projects() {
-  const projects = [
-    {
-      title: 'Project One',
-      description: 'A brief description of your first project. Explain what it does and what technologies you used.',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS'],
-      image: '/project1.jpg',
-      link: 'https://github.com/yourusername/project1',
-      demo: 'https://project1-demo.com'
-    },
-    {
-      title: 'Project Two',
-      description: 'Description of your second project. Highlight the key features and your role in development.',
-      technologies: ['Next.js', 'Node.js', 'MongoDB'],
-      image: '/project2.jpg',
-      link: 'https://github.com/yourusername/project2',
-      demo: 'https://project2-demo.com'
-    },
-  ];
+  // const projects = [
+  //   {
+  //     title: 'Project One',
+  //     description: 'A brief description of your first project. Explain what it does and what technologies you used.',
+  //     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
+  //     image: '/project1.jpg',
+  //     link: 'https://github.com/yourusername/project1',
+  //     demo: 'https://project1-demo.com'
+  //   },
+  //   {
+  //     title: 'Project Two',
+  //     description: 'Description of your second project. Highlight the key features and your role in development.',
+  //     technologies: ['Next.js', 'Node.js', 'MongoDB'],
+  //     image: '/project2.jpg',
+  //     link: 'https://github.com/yourusername/project2',
+  //     demo: 'https://project2-demo.com'
+  //   },
+  // ];
 
   return (
     <section id="projects" className="py-16">
